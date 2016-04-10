@@ -9,7 +9,7 @@ module.exports = branch({ counter: ['counter'] }, ({ props, dispatch }) => {
     <div>
       <div>Counter now { counter }</div>
       <button onClick={signal(dispatch, increment)}>Increment</button>
-      <button onClick={signal(dispatch, decrement)}>Increment</button>
+      <button onClick={signal(dispatch, decrement)}>Decrement</button>
     </div>
   )
 });
