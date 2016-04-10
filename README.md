@@ -5,6 +5,15 @@ Many peoples well know Redux, and Deku recommend use it as container, but this s
 
 [Difference between signals and redux/flux](http://www.christianalfoni.com/articles/2015_11_16_Flux-vs-Single-State-Tree)
 
+## Getting started
+
+```
+npm i
+npm start
+```
+
+Then you can open `http://localhost:3000/`
+
 ## Signals
 
 Signals it's conception about control async/sync/parallel data flow.
