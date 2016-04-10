@@ -7,7 +7,7 @@ Many peoples well know Redux, and Deku recommend use it as container, but this s
 
 ## Getting started
 
-```
+```js
 npm i
 npm start
 ```
@@ -21,7 +21,7 @@ It's use simple "pseudo-DSL" language for composing simple functions that mutate
 
 Signal example:
 
-```
+```js
 [
   loader.setLoader, // Here you want sync mutation like tree.set('loading', 'true')
  [ // Start of async operation, previous mutation will be updated in tree
@@ -45,7 +45,7 @@ Signal example:
 
 Action function example:
 
-```
+```js
 function setLoader (args, state) {
   state.set(['loader'], true); // State is wrapped Baobab tree, it's contains all baobab methods
 }
