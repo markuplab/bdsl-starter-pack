@@ -60,7 +60,9 @@ function getData (args, state, output, services) {
 ```
 
 More about signals you can read here:
+
 [Appstate repo](https://github.com/markuplab/appstate)
+
 [cerebraljs.com](http://cerebraljs.com)
 
 ## Service locator
